@@ -1,0 +1,62 @@
+/opt/share/software/packages/quast-5.2.0/pyvirt/lib/python3.7/site-packages/quast-5.2.0-py3.7.egg/EGG-INFO/scripts/quast.py assembly.fasta -o quast
+
+Version: 5.2.0
+
+System information:
+  OS: Linux-5.15.0-88-generic-x86_64-with-debian-12.5 (linux_64)
+  Python version: 3.7.3
+  CPUs number: 128
+
+Started: 2025-04-01 14:27:47
+
+Logging to /netscratch/dep_psl/grp_rgo/taklee/Florian_Kummel/verkko_sampled/quast/quast.log
+NOTICE: Maximum number of threads is set to 32 (use --threads option to set it manually)
+
+CWD: /netscratch/dep_psl/grp_rgo/taklee/Florian_Kummel/verkko_sampled
+Main parameters: 
+  MODE: default, threads: 32, min contig length: 500, min alignment length: 65, min alignment IDY: 95.0, \
+  ambiguity: one, min local misassembly length: 200, min extensive misassembly length: 1000
+
+Contigs:
+  Pre-processing...
+  assembly.fasta ==> assembly
+
+2025-04-01 14:27:53
+Running Basic statistics processor...
+  Contig files: 
+    assembly
+  Calculating N50 and L50...
+    assembly, N50 = 1923321, L50 = 7, auN = 2305185.7, Total length = 35779303, GC % = 49.72, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /netscratch/dep_psl/grp_rgo/taklee/Florian_Kummel/verkko_sampled/quast/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /netscratch/dep_psl/grp_rgo/taklee/Florian_Kummel/verkko_sampled/quast/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /netscratch/dep_psl/grp_rgo/taklee/Florian_Kummel/verkko_sampled/quast/basic_stats/GC_content_plot.pdf
+  Drawing assembly GC content plot...
+    saved to /netscratch/dep_psl/grp_rgo/taklee/Florian_Kummel/verkko_sampled/quast/basic_stats/assembly_GC_content_plot.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2025-04-01 14:27:56
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating PDF with all tables and plots...
+  2 of 2: Creating Icarus viewers...
+Done
+
+2025-04-01 14:27:57
+RESULTS:
+  Text versions of total report are saved to /netscratch/dep_psl/grp_rgo/taklee/Florian_Kummel/verkko_sampled/quast/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /netscratch/dep_psl/grp_rgo/taklee/Florian_Kummel/verkko_sampled/quast/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /netscratch/dep_psl/grp_rgo/taklee/Florian_Kummel/verkko_sampled/quast/report.html
+  PDF version (tables and plots) is saved to /netscratch/dep_psl/grp_rgo/taklee/Florian_Kummel/verkko_sampled/quast/report.pdf
+  Icarus (contig browser) is saved to /netscratch/dep_psl/grp_rgo/taklee/Florian_Kummel/verkko_sampled/quast/icarus.html
+  Log is saved to /netscratch/dep_psl/grp_rgo/taklee/Florian_Kummel/verkko_sampled/quast/quast.log
+
+Finished: 2025-04-01 14:27:57
+Elapsed time: 0:00:09.690108
+NOTICEs: 2; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
